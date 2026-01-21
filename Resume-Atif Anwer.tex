@@ -69,13 +69,28 @@
 
 % \makeletterclosing
 
+
+
+% {\Huge Cover Letter \par}    % add a text before header
+% % \recipient{\companyName}{Almhult, Sweden}  % -> EDIT %
+% \opening{Dear Sir/Madam,}
+% \closing{ \bigskip Yours faithfully,}
+% \makelettertitle
+% I'm an experienced professional engineer and PhD researcher, specializing in Computer Vision application for solving real-world challenges. With a Ph.D. in Computer Vision, 14 years of pre-PhD industrial experience, and ~3.5 years of hands-on post-PhD experience in computer vision, deep learning and human pose estimation. I am excited about the opportunity to apply the skills and knowledge gained to significantly contribute to your team’s success. During my doctoral studies at INSA Rouen, France, my research focused on a generative AI application project by using GAN's for specular reflection removal. The project was funded by INRIA and Peugeot and was a pivotal milestone in my career. 
+
+% Currently, I am working as a post-doctoral researcher at University Bourgogne Europe, France, involving close collaboration with various subject matter experts. As a postdoctoral researcher, I am working on multiple projects in parallel as part of my research work. These include developing and deploying an end-end server-based solution with a Gradio front-end, and deep-learning +computer vision backend solution for detecting and analyzing nanoparticle in TEM images. A second project is on estimating the risk of cardiovascular disease from en-face OCT fundus images using deep learning. My proficiency extends beyond theoretical research, encompassing the building of unsupervised and semi-supervised ML/DL systems. I have a proven track record of translating complex concepts into tangible solutions. In addition, I am highly motivated, proficient in communication, and adept at managing time. I am highly adaptable and thrive in dynamic environments where collaboration and creativity are encouraged. I am excited to apply my abilities to initiatives that promote innovative and cutting-edge Generative AI technologies. 
+% Additionally, I look forward to the opportunity to engage with experts and mentors in the field as it aligns perfectly with my career goals of moving from academia back to industrial applications of computer vision and deep learning. I am certain that my robust analytical abilities, communication prowess, and time management capabilities, coupled with my proficiency in collaborating within multidisciplinary teams, will empower me to significantly contribute to projects and promote a culture of innovation and excellence. My resume provides a more detailed account of my qualifications. 
+% Thank you for considering my application. 
+
+% \makeletterclosing
+
 % ----------------------------------------------------------------------------------
 %            RESUME
 % ----------------------------------------------------------------------------------
 
 \newpage
 \makecvtitle
-\section{\bcolor[magenta]{Education}}%bicolor section with custom color
+\section{{Education}}%bicolor section with custom color
 \medskip
 
 \tlcventry{2019}{2022}{PhD Computer Sciences / Electrical \& Electronics Engineering \emph{(Dual-Degree)}}{\newline INSA Rouen Normandie, France \& University Teknologi PETRONAS, Malaysia}{\emph{Funded by}: Agence Nationale de la Recherche (ANR) project ICUB}{\newline \emph{Supervisors}: Prof. Samia Ainouz (INSA), Asst. Prof. Naufal Bin Saad (UTP)}{\emph{Thesis}: Specular Highlight Detection and Adversarial Generation of Specularity-Free Images using Multi-Domain Translation Network Trained with Polarimetric Data}
@@ -89,7 +104,7 @@
 \tlcventry{2001}{2004}{B.E. Mechatronics}{\newline Major: Robotics, Control Systems and Image processing, \newline National University of Sciences \& Technology (NUST), Pakistan}{}{\newline \emph{Supervisor}: Dr. Saeed Ur Rahman}{\emph{Thesis}: Development and control of Bipedal Autonomous Robot (BART)}
 
 \bigskip
-\section{\bcolor[orange]{Interests}}%bicolor section with custom color
+\section{{Interests}}%bicolor section with custom color
 
 \medskip
 \cvitem{\textbf{\footnotesize{ }}}{
@@ -106,7 +121,7 @@
 
 \section{
 % \includegraphics[width=0.04\textwidth]{images/spotify.jpeg} 
-\bcolor[cyan]{Technical \& Professional Highlights}}
+{Technical \& Professional Highlights}}
 \medskip
 \cvitem{}{
 \begin{itemize}
@@ -125,7 +140,7 @@
 }
 \newpage
 
-\section{\bcolor[teal]{Experience}}
+\section{{Experience}}
 \medskip
 \tlcventry{2022}{0}{Postdoctoral Researcher}{Université Bourgogne Europe}{Dijon, France}{\includegraphics[width=0.05\textwidth]{images/logo.jpg} }{Research and development of software pipeline and Web Application for end-to-end detection, segmentation, and analysis of Tunnelling Electron Microscopy (TEM) images of Cu, Ni and ZnO nanoparticles. Additionally, development on estimating risk of cardiovascular disease from en-face OCT fundus images using deep learning.}
 \medskip
@@ -138,7 +153,7 @@
 \tlcventry{2004}{2016}{Manager (Mechatronics)}{}{Islamabad}{Pakistan}{Multiple diverse industry roles involving concurrent responsibilities in Mechanical and Electronic Design research, and managerial positions.}
 \bigskip
 
-\section{\bcolor[purple]{Skills}}
+\section{{Skills}}
 \medskip
 \cvitemwithcomment{Programming \& Frameworks}{\parbox{0.75\textwidth}{Python, TensorFlow, OpenCV, MATLAB, C\#, Visual Basic, OpenAI API (LLMs), Mediapipe, Rerun, Gradio, React, TypeScript, Electron}}{}
 \medskip
@@ -149,7 +164,7 @@
 \cvitemwithcomment{Tools \& Platforms}{Git, \LaTeX, Notion, WordPress, 3D Printing}{}
 \bigskip
 
-\section{\bcolor[blue]{Languages}}
+\section{{Languages}}
 \medskip
 \cvlanguage{Urdu}{Native}{}
 \medskip
@@ -169,11 +184,16 @@
 \bigskip
 \bigskip
 
-\section{\bcolor[magenta]{Projects}}
+\section{{Projects}}
 % \medskip
 \begin{cvcolumns}
     % \setlength{\maincolumnwidth}{1.25\textwidth}
-    \cvcolumn{Automated analysis of TEM images of nano-particles (2023 \faLongArrowAltRight)}{Solely responsible for creation of a robust software pipeline and Web Application for end-to-end detection, segmentation, and analysis of Transmission Electron Microscopy (TEM) images featuring Cu, Ni and ZnO nanoparticles, by deploying a custom-trained YOLO v8 OBB network.}
+    \cvcolumn{FPS Tactician (Commercial Project) \includegraphics[width=0.04\textwidth]{images/FPSTactician5.png} (2025 \faLongArrowAltRight)}{Sole developer and maintainer of the commercial product \textit{FPS Tactician}, an interactive Windows application for the Ubisoft game \textit{Rainbow Six SiegeX}. Tech stack includes Electron (platform), React (frontend), TypeScript, and TailwindCSS, with Supabase for Authentication. (\href{https://www.fpstactician.com}{FPS Tactician\faLaptopCode})}
+    % \cvcolumn{ }{\photo[64pt][0.4pt]{images\logo.jpg}}
+\end{cvcolumns}
+\begin{cvcolumns}
+    % \setlength{\maincolumnwidth}{1.25\textwidth}
+    \cvcolumn{Automated analysis of TEM images of nano-particles (2023 \faLongArrowAltRight)}{Solely responsible for creation of a robust software pipeline and Web Application for end-to-end detection, segmentation, and analysis of Transmission Electron Microscopy (TEM) images featuring Cu, Ni and ZnO nanoparticles, by deploying a custom-trained YOLO v8 OBB network.(\href{https://www.tautem2d.icmub.fr}{TAUTEM2D Platform\faLaptopCode})}
     % \cvcolumn{ }{\photo[64pt][0.4pt]{images\logo.jpg}}
 \end{cvcolumns}
 \begin{cvcolumns}
@@ -197,14 +217,11 @@
     % \cvcolumn{ }{\photo[64pt][0.4pt]{images\logo.jpg}}
 \end{cvcolumns}
 
-\section{\bcolor[cyan]{Teaching}}
+\section{{Teaching}}
 % \medskip
 % \subsection{Teaching Assistant}
-\tlcventry{2025}{0}{Masters Course (MS Health AI M2)}{\textbf{Image Processing}}{Département IEM (Informatique Electronique Mécanique)}{University de Bourgogne, France}{}
-\tldatecventry{2024}{Masters Course (MS Health AI M2)}{\textbf{Image Processing}}{Département IEM (Informatique Electronique Mécanique)}{University de Bourgogne, France}{}
-\tldatecventry{2023}{Masters Course (MS Health AI M2)}{\textbf{Image Processing}}{Département IEM (Informatique Electronique Mécanique)}{University de Bourgogne, France}{}
-\tldatecventry{2022}{Undergraduate Course}{Data Analysis and Digital Tools}{Département Informatique et technologie de l'information}{INSA Rouen, France}{}
-\tldatecventry{2021}{Undergraduate Course}{Data Analysis and Digital Tools}{Département Informatique et technologie de l'information}{INSA Rouen, France}{}
+\tlcventry{2023}{2026}{Masters Courses}{\textbf{Image Processing (2023, 2024, 2025)}}{MS Health AI (M2))}{University Bourgogne Europe, France}{}
+\tlcventry{2021}{2022}{Undergraduate Courses}{\textbf{Data Analysis and Digital Tools (2021, 2022)}}{Département Informatique et technologie de l'information}{INSA Rouen, France}{}
 % \bigskip
 % \tldatecventry{2021}{Lab Assistant}{Soyez Acteurs du Web!}{Département Informatique et technologie de l'information}{INSA Rouen, France}{}
 \tldatecventry{2019}{Teaching Assistant}{Probability \& Statistics}{Department of Electrical \& Electronics Engineering}{UTP, Malaysia}{}
@@ -213,7 +230,7 @@
 
 \newpage
 \begingroup
-\renewcommand{\refname}{\bcolor[magenta]{Publications}} % <-- Custom heading here
+\renewcommand{\refname}{{Publications}} % <-- Custom heading here
 \nocite{*}
 \bibliographystyle{unsrt}
 \let\thefootnote\relax\footnotetext{\textit{IF: Clarivate Web Of Science Impact Factor}}
@@ -221,7 +238,7 @@
 \endgroup
 \newpage
 
-\section{\bcolor[magenta]{Achievements}}
+\section{{Achievements}}
 \bigskip
 \tlcventry{2019}{2020}{Graduate Assistant Scholarship}{\newline Universiti Teknologi PETRONAS}{Malaysia}{}{}
 % \medskip
@@ -251,13 +268,13 @@
 % \tldatecventry{2010}{\emph{Robust Control System}}{}{\newline Muhammad Ali Jinnah University}{Pakistan}{}
 % \tldatecventry{2010}{\emph{Pattern Recognition}}{}{\newline Muhammad Ali Jinnah University}{Pakistan}{}
 
-\section{\bcolor[orange]{Internship Co-supervision}}
+\section{{Internship Co-supervision}}
 \bigskip
 \tlcventry{2025}{0}{\emph{Augmented Reality in Mandibular Tumor Surgery}}{\newline Development of a real-time AR system for mandibular tumor surgery by overlaying CT 3D reconstructions onto endoscopic video, using feature extraction, tracking and homography chaining for accurate image registration.}{\newline University Bourgogne Europe, Dijon}{France}{}
 \tldatecventry{2024}{\emph{Fully automated detection of nanoparticles in TEM images}}{\newline Detection of Zn, CuO and Ni nanoparticles in Transmission Electron Microscopy (TEM) images using YOLO and generation of 2D size plots based on the NP dimensions}{\newline University Bourgogne Europe, Dijon}{ }{}
 
 
-\section{\bcolor[teal]{References}}
+\section{{References}}
 \bigskip
 \begin{cvcolumns}
     \cvcolumn{Fabrice Mériaudeau}{Professor, \\ ICMUB Institute of Molecular Chemistry of the University of Burgundy (ICMUB) \\ University de Bourgogne, France \\ \emailsymbol fabrice.meriaudeau@u-bourgogne.fr \\ \phonesymbol  +33 3 85 73 10 96}
