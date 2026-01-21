@@ -2,7 +2,7 @@
 
 % \usepackage[dvipsnames]{xcolor}
 \moderncvstyle{classic}
-\moderncvcolor{blue}
+\moderncvcolor{green}
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage[scale=0.85]{geometry}    % Width of the entire CV
@@ -15,6 +15,10 @@
 \usepackage{xcolor}
 \usepackage{footmisc}
 \usepackage{xstring}
+
+\definecolor{carmine}{rgb}{0.59, 0.0, 0.09}
+\colorlet{color1}{carmine}
+
 \DeclareRobustCommand{\bcolor}[2][color1]{%
   {\bfseries
     \textcolor{#1}{\StrLeft{#2}{3}}% First 3 characters in color
@@ -25,12 +29,12 @@
 %----------------------------------------------------------------------------------
 %            Personal data
 %----------------------------------------------------------------------------------    
-\name{Atif ANWER}{}
-\title{\emph{Computer Vision Researcher | AI Systems Engineer}}
+\name{Atif}{ANWER}
+\title{{Computer Vision Researcher, AI \& Robotics Engineer}}
 \address{Le Creusot, 71200 France}{}
 \phone[mobile]{+33~66~011~2563 / +92 333 5198304}
 \email{atif.anwer@u-bourgogne.fr}                % optional, remove / comment the line if not wanted
-\homepage{atif-anwer.github.io}    % optional, remove / comment the line if not wanted
+% \homepage{atif-anwer.github.io}    % optional, remove / comment the line if not wanted
 \social[github]{Atif-Anwer}   % optional, remove / comment the line if not wanted
 \social[linkedin]{atifanwer}  % optional, remove / comment the line if not wanted
 % \social[orcid]{Atif-Anwer}{0000-0002-5412-3263}
@@ -135,8 +139,7 @@
     \smallskip
     \item Strong interpersonal, communication, and time-management skills with experience leading and collaborating within interdisciplinary teams.
     \smallskip
-    \item Experienced in designing and building low cost robotic systems from scratch with off the shelf electronic components, controllers and 3D printed parts
-\end{itemize}
+    \item Experienced in designing and building low cost robotic systems from scratch with off the shelf electronic components, controllers and Design for Additive Manufacturing (DFAM) principals.\end{itemize}
 }
 \newpage
 
@@ -157,7 +160,7 @@
 \medskip
 \cvitemwithcomment{Programming \& Frameworks}{\parbox{0.75\textwidth}{Python, TensorFlow, OpenCV, MATLAB, C\#, Visual Basic, OpenAI API (LLMs), Mediapipe, Rerun, Gradio, React, TypeScript, Electron}}{}
 \medskip
-\cvitemwithcomment{3D Modeling \& Rendering}{Creo, SolidWorks (Design for Additive Manufacturing (DFAM)), SketchUp, Blender}{}
+\cvitemwithcomment{3D Modeling \& Rendering}{Creo, SolidWorks, SketchUp, Blender}{}
 \medskip
 \cvitemwithcomment{Design \& Illustration}{Adobe Photoshop, Affinity Designer, Figma, CorelDRAW}{}
 \medskip
@@ -174,9 +177,9 @@
 \medskip
 \bigskip
 
-\section{\bcolor{Extra Curricular/Pro-Bono}}
+\section{Extra Curricular/Pro-Bono}
 \bigskip
-\tlcventry{2020}{0}{Administrator}{}{ r\textbackslash ComputerVision subreddit and discord server}{}{}
+\tlcventry{2020}{0}{Administrator}{}{ r\textbackslash ComputerVision subreddit and Computer Vision discord server}{}{}
 % \bigskip
 \tlcventry{2010}{2011}{Guest writer (Hardware reviewer)}{wccftech.com}{}{}{}
 % \bigskip
@@ -188,12 +191,12 @@
 % \medskip
 \begin{cvcolumns}
     % \setlength{\maincolumnwidth}{1.25\textwidth}
-    \cvcolumn{FPS Tactician (Commercial Project) \includegraphics[width=0.04\textwidth]{images/FPSTactician5.png} (2025 \faLongArrowAltRight)}{Sole developer and maintainer of the commercial product \textit{FPS Tactician}, an interactive Windows application for the Ubisoft game \textit{Rainbow Six SiegeX}. Tech stack includes Electron (platform), React (frontend), TypeScript, and TailwindCSS, with Supabase for Authentication. (\href{https://www.fpstactician.com}{FPS Tactician\faLaptopCode})}
+    \cvcolumn{FPS Tactician (Commercial Project) \includegraphics[width=0.04\textwidth]{images/FPSTactician5.png} (2025 \faLongArrowAltRight)}{Sole developer/maintainer of \href{https:www.fpstactician.com}{FPS TACTICIAN}, an interactive Strategy and planning Windows application for the Ubisoft game \textit{Rainbow Six SiegeX}. Tech stack includes Electron (platform), React (frontend), TypeScript, and TailwindCSS, with Supabase for Authentication. (\href{https://www.fpstactician.com}{FPS Tactician \faLaptopCode})}
     % \cvcolumn{ }{\photo[64pt][0.4pt]{images\logo.jpg}}
 \end{cvcolumns}
 \begin{cvcolumns}
     % \setlength{\maincolumnwidth}{1.25\textwidth}
-    \cvcolumn{Automated analysis of TEM images of nano-particles (2023 \faLongArrowAltRight)}{Solely responsible for creation of a robust software pipeline and Web Application for end-to-end detection, segmentation, and analysis of Transmission Electron Microscopy (TEM) images featuring Cu, Ni and ZnO nanoparticles, by deploying a custom-trained YOLO v8 OBB network.(\href{https://www.tautem2d.icmub.fr}{TAUTEM2D Platform\faLaptopCode})}
+    \cvcolumn{Automated analysis of TEM images of nano-particles (2023 \faLongArrowAltRight)}{Solely responsible for creation of a robust software pipeline and Web Application for end-to-end detection, segmentation, and analysis of Transmission Electron Microscopy (TEM) images featuring Cu, Ni and ZnO nanoparticles, by deploying a custom-trained YOLO v8 OBB network.(\href{https://www.tautem2d.icmub.fr}{TAUTEM2D Platform \faLaptopCode})}
     % \cvcolumn{ }{\photo[64pt][0.4pt]{images\logo.jpg}}
 \end{cvcolumns}
 \begin{cvcolumns}
@@ -268,8 +271,9 @@
 % \tldatecventry{2010}{\emph{Robust Control System}}{}{\newline Muhammad Ali Jinnah University}{Pakistan}{}
 % \tldatecventry{2010}{\emph{Pattern Recognition}}{}{\newline Muhammad Ali Jinnah University}{Pakistan}{}
 
-\section{{Internship Co-supervision}}
+\section{{Internships \& Co-supervision}}
 \bigskip
+\tlcventry{2025}{0}{\emph{Co-Supervision PhD thesis: Designing AI tools for automated information extraction and predicting optimal chemical reaction condition}}{\newline Identifying optimal chemical reaction conditions to maximize yield by combining state-of-the-art reaction-graph neural networks with LLM-driven automation for extracting reaction knowledge from the literature and proposing next-generation alternatives to existing condition-prediction methods.}{\newline PhD Student: Ulrick Fineddie Randriharimanamizara -\newline Supervisors: Julien Roger,  Fabrice Meriaudeau, Paul Fleurat-Lessard}{\newline University Bourgogne Europe, Dijon, France}{}
 \tlcventry{2025}{0}{\emph{Augmented Reality in Mandibular Tumor Surgery}}{\newline Development of a real-time AR system for mandibular tumor surgery by overlaying CT 3D reconstructions onto endoscopic video, using feature extraction, tracking and homography chaining for accurate image registration.}{\newline University Bourgogne Europe, Dijon}{France}{}
 \tldatecventry{2024}{\emph{Fully automated detection of nanoparticles in TEM images}}{\newline Detection of Zn, CuO and Ni nanoparticles in Transmission Electron Microscopy (TEM) images using YOLO and generation of 2D size plots based on the NP dimensions}{\newline University Bourgogne Europe, Dijon}{ }{}
 
