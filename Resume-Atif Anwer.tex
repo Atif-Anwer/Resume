@@ -15,8 +15,11 @@
 \usepackage{xcolor}
 \usepackage{footmisc}
 \usepackage{xstring}
+\usepackage[export]{adjustbox}
 
-\definecolor{carmine}{rgb}{0.59, 0.0, 0.09}
+\definecolor{carmine}{rgb}{0.9, 0.17, 0.31}
+% \definecolor{amaranth}{rgb}{0.9, 0.17, 0.31}
+% \definecolor{awesome}{rgb}{1.0, 0.13, 0.32}
 \colorlet{color1}{carmine}
 
 \DeclareRobustCommand{\bcolor}[2][color1]{%
@@ -33,7 +36,7 @@
 \title{{Computer Vision Researcher, AI \& Robotics Engineer}}
 \address{Le Creusot, 71200 France}{}
 \phone[mobile]{+33~66~011~2563 / +92 333 5198304}
-\email{atif.anwer@u-bourgogne.fr}                % optional, remove / comment the line if not wanted
+\email{atif.anwer@ube.fr}                % optional, remove / comment the line if not wanted
 % \homepage{atif-anwer.github.io}    % optional, remove / comment the line if not wanted
 \social[github]{Atif-Anwer}   % optional, remove / comment the line if not wanted
 \social[linkedin]{atifanwer}  % optional, remove / comment the line if not wanted
@@ -187,6 +190,21 @@
 \bigskip
 \bigskip
 
+\newpage
+\begingroup
+\renewcommand{\refname}{{Publications}} % <-- Custom heading here
+\nocite{*}
+\bibliographystyle{unsrt}
+\let\thefootnote\relax\footnotetext{\textit{IF: Clarivate Web Of Science Impact Factor}}
+\bibliography{publications}
+\endgroup
+\newpage
+
+\section{{Select Project Portfolio}}
+\includegraphics[width=0.75\textwidth,right]{images/PastProjects.pdf}
+\newpage
+
+
 \section{{Projects}}
 % \medskip
 \begin{cvcolumns}
@@ -232,15 +250,6 @@
 
 
 \newpage
-\begingroup
-\renewcommand{\refname}{{Publications}} % <-- Custom heading here
-\nocite{*}
-\bibliographystyle{unsrt}
-\let\thefootnote\relax\footnotetext{\textit{IF: Clarivate Web Of Science Impact Factor}}
-\bibliography{publications}
-\endgroup
-\newpage
-
 \section{{Achievements}}
 \bigskip
 \tlcventry{2019}{2020}{Graduate Assistant Scholarship}{\newline Universiti Teknologi PETRONAS}{Malaysia}{}{}
