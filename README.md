@@ -1,8 +1,10 @@
 # Resume:
-[Download the PDF Resume here](https://github.com/Atif-Anwer/Resume-2024/blob/main/Resume-Atif%20Anwer.pdf)
+[Download the PDF Resume here](https://github.com/Atif-Anwer/Resume-2024/blob/main/Resume_Atif_Anwer.pdf)
 
 # Explore my Github:
 Since youre here, you might want to further explore my github repos :)
+
+Unfortunately, most of my main projects are personal repositories, which I may release later down the road.
 
 [SHMGAN 2023](https://github.com/Atif-Anwer/SHMGAN): Joint network for specular highlight detection and adversarial generation of specular-free images trained with polarimetric data
 
